@@ -29,7 +29,7 @@ This repository also introduces a thoroughly curated Domestic Cat Age Transition
 
 ---
 
-## Overview
+## Overview - TO EDIT
 
 This project analyzes corvid vocalizations using state-of-the-art deep learning models and traditional signal processing techniques. The pipeline processes raw audio recordings, separates individual calls, extracts acoustic features, and identifies call types across multiple corvid species including:
 
@@ -48,15 +48,19 @@ The research aims to understand vocal repertoires, identify species-specific and
 ```
 dcatvd/
 ├── dataset/
+│   ├── raw_audio/
+│   ├── denoised_audio/
+│   ├── meow_units/
+│   ├── ecmus/
 ├── code/
 │   ├── channel_selection/  # Selecting channels from YT and IG
 │   ├── video_filtering/    # Filtering high-quality YT videos
 │   ├── denoising/          # Audio preprocessing and noise reduction
 │   ├── separation/         # Call detection and segmentation
-│   ├── mu_filtering/       # Filtering high-quality Meow Units (might not need this section)
-│   ├── classification/     # Feline-Vczn and Call-Type Classification
+│   ├── mu_filtering/       # Additional filtering and feline-Vczn classification
+│   ├── classification/     # Call-Type classification
 │   ├── clustering/         # Feature extraction and clustering
-│   └── statistics/         # Calculating statistics from the Dataset
+│   └── statistics/         # Statistical analysis of results
 ```
 
 ## Pipeline Workflow
@@ -90,7 +94,7 @@ Raw Audio
 REST AFTER THIS HAS NOT BEEN EDITED YET ....
 
 
-## Modules
+## Modules - TO EDIT
 
 ### Denoising
 
