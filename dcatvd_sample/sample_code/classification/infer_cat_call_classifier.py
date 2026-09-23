@@ -345,7 +345,7 @@ def main() -> None:
     source.add_argument("--audio-paths", nargs="+", help="Audio files or directories. Directories are searched recursively.")
     source.add_argument("--input-parquets", nargs="+", help="Parquets with event_audio_paths to classify on the fly.")
     parser.add_argument("--checkpoint", required=True, help="Lightning checkpoint produced by train_beats_call_classifier.py")
-    parser.add_argument("--beats-checkpoint", default="/supernova/data/lekhak/models/BEATs_iter3_plus_AS2M.pt")
+    parser.add_argument("--beats-checkpoint", default="BEATs_iter3_plus_AS2M.pt")
     parser.add_argument("--beats-code-dir", default="./beats")
     parser.add_argument("--output-prefix", required=True, help="Output prefix; writes .parquet, .jsonl, .tsv")
     parser.add_argument("--batch-size", type=int, default=16)
