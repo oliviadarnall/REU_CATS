@@ -6,7 +6,7 @@ This paper describes a machine learning pipeline for analyzing domestic cat voca
 
 This repository also introduces a thoroughly curated Domestic Cat Age Transition Vocalization Dataset (DCATVD), which includes accurate metadata for vocalizations from 156 individual cats from 12 different breeds. This metadata includes precise birth-date, breed, age group, and individual cat ID in accordance with each of the 9,135 meow units (totaling 4.42 hours). This is the largest open-source cat dataset of this type, designed to enable novel and robust research regarding feline vocal development.
 
-Upon acceptance, the full dataset and code will be released. Currently, this repository contains a sample of 10 cat vocalizations selected at random from the full dataset. 
+Upon acceptance, the full dataset and code will be released. Currently, this repository contains a sample of 10 cat vocalizations selected at random from the full dataset, as well as sample code for the cat call SED, meow unit separation, and cat call-type classifier. 
 
 ## Table of Contents
 
