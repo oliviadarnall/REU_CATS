@@ -2,7 +2,7 @@
 
 This repository accompanies the paper "DCATVD: A Large-Scale Longitudinal Dataset for Analysis of Domestic Cat Vocal Development," currently under review for the ICLR 2027 Conference.
 
-This paper describes a machine learning pipeline for analyzing domestic cat vocalizations, and encompasses audio preprocessing, cat-call separation, feature extraction, classification of cat vocalizations into cat-call vocalizations, and the clustering of cat vocalizations into elemental units.
+This paper describes a machine learning pipeline for analyzing domestic cat vocalizations, encompassing audio preprocessing, cat-call separation, feature extraction, classification of cat vocalizations into cat-call vocalizations, and the clustering of cat vocalizations into elemental units.
 
 This repository also introduces a thoroughly curated Domestic Cat Age Transition Vocalization Dataset (DCATVD), which includes accurate metadata for vocalizations from 156 individual cats from 12 different breeds. This metadata includes precise birth-date, breed, age group, and individual cat ID in accordance with each of the 9,135 meow units (totaling 4.42 hours). This is the largest open-source cat dataset of this type, designed to enable novel and robust research regarding feline vocal development.
 
@@ -30,7 +30,7 @@ Upon acceptance, the full dataset and code will be released. Currently, this rep
 
 ## Overview
 
-Our pipeline processes raw audio recordings, separates individual calls, extracts acoustic features, and identifies call-types across multiple domestic cat breeds and life stages including:
+Our pipeline processes raw audio recordings, separates individual cat calls, extracts acoustic features, and identifies call-types across multiple domestic cat breeds and life stages including:
 
 Breeds:
 - **Abyssinian**
@@ -90,7 +90,7 @@ dcatvd/
 
 ## Pipeline Workflow
 
-The analysis pipeline follows these stages:
+Our analysis pipeline follows these following stages:
 
 ```
 [1. CHANNE SELETCTION] → Find high-quality candidate cat channels
