@@ -101,7 +101,7 @@ dcatvd/
 
 ## Pipeline Workflow
 
-Our analysis pipeline follows these following stages:
+Our analysis pipeline follows these stages:
 
 ```
 [1. CHANNE SELETCTION] → Find high-quality candidate cat channels
