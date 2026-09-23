@@ -2,7 +2,7 @@
 
 This repository accompanies the paper "DCATVD: A Large-Scale Longitudinal Dataset for Analysis of Domestic Cat Vocal Development".
 
-The data is available at this link: zenodo
+The data is available at this link: X
 
 A comprehensive machine learning pipeline for analyzing domestic cat vocalizations. This project encompasses audio preprocessing, cat-call separation, feature extraction, clustering, and classification of cat vocalizations into cat-call vocalizations.
 
@@ -30,15 +30,22 @@ This repository also introduces a thoroughly curated Domestic Cat Age Transition
 
 ## Overview - TO EDIT
 
-This project analyzes corvid vocalizations using state-of-the-art deep learning models and traditional signal processing techniques. The pipeline processes raw audio recordings, separates individual calls, extracts acoustic features, and identifies call types across multiple corvid species including:
+This project analyzes corvid vocalizations using state-of-the-art deep learning models and traditional signal processing techniques. The pipeline processes raw audio recordings, separates individual calls, extracts acoustic features, and identifies call types across multiple domestic cat breeds including:
 
-- **American Crow** (*Corvus brachyrhynchos*)
-- **Common Raven** (*Corvus corax*)
-- **Hooded Crow** (*Corvus cornix*)
-- **Carrion Crow** (*Corvus corone*)
-- **Fish Crow** (*Corvus ossifragus*)
+- **Abyssinian**
+- **Bengal**
+- **Birman** 
+- **British Shorthair**
+- **Devon Rex**
+- **Maine Coon**
+- **Persian**
+- **Ragdoll**
+- **Siamese**
+- **Siberian**
+- **Sphynx**
+- **Tonkinese**
 
-The research aims to understand vocal repertoires, identify species-specific and cross-species call types, and analyze acoustic communication patterns.
+The research aims to understand vocal repertoires and identify and analyze acoustic communication patterns of domestic cats of varying ages and breeds.
 
 ---
 
