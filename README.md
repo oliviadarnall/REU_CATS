@@ -10,9 +10,9 @@ Upon acceptance, the full dataset and code will be released. Currently, this rep
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Pipeline Workflow](#pipeline-workflow)
+- [Overview]
+- [Project Structure]
+- [Pipeline Workflow]
 
 ---
 
