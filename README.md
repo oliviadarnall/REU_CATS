@@ -30,8 +30,9 @@ This repository also introduces a thoroughly curated Domestic Cat Age Transition
 
 ## Overview - TO EDIT
 
-This project analyzes corvid vocalizations using state-of-the-art deep learning models and traditional signal processing techniques. The pipeline processes raw audio recordings, separates individual calls, extracts acoustic features, and identifies call types across multiple domestic cat breeds including:
+This project analyzes corvid vocalizations using state-of-the-art deep learning models and traditional signal processing techniques. The pipeline processes raw audio recordings, separates individual calls, extracts acoustic features, and identifies call types across multiple domestic cat breeds and life stages including:
 
+Breeds:
 - **Abyssinian**
 - **Bengal**
 - **Birman** 
@@ -44,6 +45,14 @@ This project analyzes corvid vocalizations using state-of-the-art deep learning 
 - **Siberian**
 - **Sphynx**
 - **Tonkinese**
+
+Life Stages:
+- **Kitten (birth - 6 months)**
+- **Junior (7 months - 2 years)**
+- **Prime (3 years - 6 years)**
+- **Mature (7 years - 10 years)**
+- **Senior (11 years - 14 years)**
+- **Geriatric (15 years or older)**
 
 The research aims to understand vocal repertoires and identify and analyze acoustic communication patterns of domestic cats of varying ages and breeds.
 
