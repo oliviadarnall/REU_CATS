@@ -1,20 +1,20 @@
 # DCATVD: Domestic Cat Age Transition Vocalization Dataset
 
-This repository accompanies the paper "DCATVD: A Large-Scale Longitudinal Dataset for Analysis of Domestic Cat Vocal Development".
+This repository accompanies the paper "DCATVD: A Large-Scale Longitudinal Dataset for Analysis of Domestic Cat Vocal Development," currently under review for the ICLR 2027 Conference.
 
-The data is available at this link: X
+This paper describes a machine learning pipeline for analyzing domestic cat vocalizations, and encompasses audio preprocessing, cat-call separation, feature extraction, classification of cat vocalizations into cat-call vocalizations, and the clustering of cat vocalizations into elemental units.
 
-A comprehensive machine learning pipeline for analyzing domestic cat vocalizations. This project encompasses audio preprocessing, cat-call separation, feature extraction, clustering, and classification of cat vocalizations into cat-call vocalizations.
+This repository also introduces a thoroughly curated Domestic Cat Age Transition Vocalization Dataset (DCATVD), which includes accurate metadata for vocalizations from 156 individual cats from 12 different breeds. This metadata includes precise birth-date, breed, age group, and individual cat ID in accordance with each of the 9,135 meow units (totaling 4.42 hours). This is the largest open-source cat dataset of this type, designed to enable novel and robust research regarding feline vocal development.
 
-This repository also introduces a thoroughly curated Domestic Cat Age Transition Vocalization Dataset (DCATVD), which includes accurate metadata for 156 individual cats from 12 different breeds. This metadata includes precise birth-date, breed, age group, and individual cat ID in accordance with each of the 9,135 meow units (totaling 4.42 hours). This is the largest open-source cat dataset of this type, designed to enable novel and robust research regarding feline vocal development.
+Upon acceptance, the full dataset and code will be released. Currently, this repository contains a sample of 10 cat vocalizations selected at random from the full dataset. 
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 - [Pipeline Workflow](#pipeline-workflow)
-- [Modules](#modules)
-  - [Data Selection](#channel-selection)
+<!-- - [Modules](#modules)
+  - [Data Selection](#data-selection)
   - [Denoising](#denoising)
   - [Separation](#separation)
   - [Meow Unit Filtering](#mu-filtering)
@@ -24,13 +24,13 @@ This repository also introduces a thoroughly curated Domestic Cat Age Transition
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technical Details](#technical-details)
-- [Dependencies](#dependencies)
+- [Dependencies](#dependencies) -->
 
 ---
 
-## Overview - TO EDIT
+## Overview
 
-This project analyzes corvid vocalizations using state-of-the-art deep learning models and traditional signal processing techniques. The pipeline processes raw audio recordings, separates individual calls, extracts acoustic features, and identifies call types across multiple domestic cat breeds and life stages including:
+Our pipeline processes raw audio recordings, separates individual calls, extracts acoustic features, and identifies call-types across multiple domestic cat breeds and life stages including:
 
 Breeds:
 - **Abyssinian**
@@ -73,13 +73,12 @@ The research aims to understand vocal repertoires and identify and analyze acous
 
 ## Project Structure
 
+Upon acceptance, we will release the full dataset and code used in the project.
+The structure of the repository will be as follows:
+
 ```
 dcatvd/
 ├── dataset/
-│   ├── raw_audio/
-│   ├── denoised_audio/
-│   ├── meow_units/
-│   ├── ecmus/
 ├── code/
 │   ├── data_selection/     # Selection of data from social media
 │   ├── denoising/          # Audio preprocessing and noise reduction
