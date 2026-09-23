@@ -54,6 +54,19 @@ Life Stages:
 - **Senior (11 years - 14 years)**
 - **Geriatric (15 years or older)**
 
+We perform classification on the collected vocalization units, using the following categories:
+- **Chatter/Chirp**
+- **Growl**
+- **Hiss/Spit**
+- **Meow**
+- **Purr**
+- **Pain-Cry**
+- **Trill**
+- **Trill-Meow**
+- **Yowl/Howl**
+
+We also perform unsupervised clustering on smaller 25ms units from each vocalization.
+
 The research aims to understand vocal repertoires and identify and analyze acoustic communication patterns of domestic cats of varying ages and breeds.
 
 ---
