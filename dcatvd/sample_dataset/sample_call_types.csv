@@ -1,0 +1,11 @@
+mu_id,video_id,cat_id,breed,stage,vocalization,confidence,duration
+vcEpLqkcWSM_AS_MU_68940,vcEpLqkcWSM,CatA,bengal,junior,purr,0.999992,832.0
+Vd9dVtWZ-7U_AS_MU_61225,Vd9dVtWZ-7U,CatB,ragdoll,junior,growl,0.714696,832.0
+XHWKepZ6aYA_AS_MU_7754,XHWKepZ6aYA,CatC,ragdoll,kitten,purr,1.0,1712.0
+o3DYyw2soMs_AS_MU_16928,o3DYyw2soMs,CatD,abyssinian,junior,purr,0.999991,1622.0
+l6R9TnF_ObQ_AS_MU_53019,l6R9TnF_ObQ,CatE,bengal,prime,meow,0.943651,831.0
+EN9HkyTvBEU_AS_MU_105956,EN9HkyTvBEU,CatF,persian,junior,purr,0.999999,704.0
+hVatVo1rgnI_AS_MU_52387,hVatVo1rgnI,CatG,bengal,prime,meow,0.967811,1112.0
+Ckior8Fqgzb_AS_MU_31790,Ckior8Fqgzb,CatH,bengal,kitten,trill_meow,0.734633,0.9999375
+CniA73KJucD_AS_MU_115325,CniA73KJucD,CatI,maine coon,junior,trill_meow,0.98409,1096.0
+DRwUqlWDbRZ_AS_MU_74226,DRwUqlWDbRZ,CatJ,maine coon,junior,yowl_howl,0.879018,1312.0
