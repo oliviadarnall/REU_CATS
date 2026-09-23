@@ -73,6 +73,17 @@ The research aims to understand vocal repertoires and identify and analyze acous
 
 ## Project Structure
 
+At present, this repository contains a sample of 10 cat vocalizations selected at random from the full dataset, as well as sample code for the cat call SED, meow unit separation, and cat call-type classifier.
+
+```
+sample_dcatvd/
+├── sample_code/
+│   ├── separation/         # Call detection and segmentation
+│   ├── classification/     # Cat call-type classification
+├── sample_dataset/
+│   ├── sample_audio/       # Random sample of 10 cat vocalizations
+```
+
 Upon acceptance, we will release the full dataset and code used in the project.
 The structure of the repository will be as follows:
 

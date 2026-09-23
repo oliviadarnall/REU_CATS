@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 On-the-fly BEATs inference for cat call-type events.
 
