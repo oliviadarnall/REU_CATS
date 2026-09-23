@@ -13,18 +13,6 @@ Upon acceptance, the full dataset and code will be released. Currently, this rep
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 - [Pipeline Workflow](#pipeline-workflow)
-<!-- - [Modules](#modules)
-  - [Data Selection](#data-selection)
-  - [Denoising](#denoising)
-  - [Separation](#separation)
-  - [Meow Unit Filtering](#mu-filtering)
-  - [Classification](#classification)
-  - [Clustering](#clustering)
-  - [Statistics](#stats)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technical Details](#technical-details)
-- [Dependencies](#dependencies) -->
 
 ---
 
