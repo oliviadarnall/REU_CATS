@@ -1,4 +1,4 @@
-path,cat_id,breed,stage,vocalization,confidence,duration
+path,cat_id,breed,stage,vocalization,confidence,duration_ms
 CatA_Sample.wav,CatA,bengal,junior,purr,0.999992,832.0
 CatB_Sample.wav,CatB,ragdoll,junior,growl,0.714696,832.0
 CatC_Sample.wav,CatC,ragdoll,kitten,purr,1.0,1712.0
@@ -6,6 +6,6 @@ CatD_Sample.wav,CatD,abyssinian,junior,purr,0.999991,1622.0
 CatE_Sample.wav,CatE,bengal,prime,meow,0.943651,831.0
 CatF_Sample.wav,CatF,persian,junior,purr,0.999999,704.0
 CatG_Sample.wav,CatG,bengal,prime,meow,0.967811,1112.0
-CatH_Sample.wav,CatH,bengal,kitten,trill_meow,0.734633,0.9999375
+CatH_Sample.wav,CatH,bengal,kitten,trill_meow,0.734633,999.9375
 CatI_Sample.wav,CatI,maine coon,junior,trill_meow,0.98409,1096.0
 CatJ_Sample.wav,CatJ,maine coon,junior,yowl_howl,0.879018,1312.0
