@@ -64,10 +64,10 @@ The research aims to understand vocal repertoires and identify and analyze acous
 At present, this repository contains a sample of 10 cat vocalizations selected at random from the full dataset, as well as sample code for the cat call SED, meow unit separation, and cat call-type classifier.
 
 ```
-sample_dcatvd/
+dcatvd_sample/
 ├── sample_code/
-│   ├── separation/         # Call detection and segmentation
 │   ├── classification/     # Cat call-type classification
+│   ├── separation/         # Call detection and segmentation
 ├── sample_dataset/
 │   ├── sample_audio/       # Random sample of 10 cat vocalizations
 ```
@@ -82,7 +82,7 @@ dcatvd/
 │   ├── data_selection/     # Selection of data from social media
 │   ├── denoising/          # Audio preprocessing and noise reduction
 │   ├── separation/         # Call detection and segmentation
-│   ├── classification/     # Feline vzcn and call-type classification
+│   ├── classification/     # Binary feline vocalization and call-type classification
 │   ├── clustering/         # Feature extraction and clustering
 │   └── statistics/         # Statistical analysis of results
 ```
@@ -92,7 +92,7 @@ dcatvd/
 Our analysis pipeline follows these stages:
 
 ```
-[1. CHANNE SELETCTION] → Find high-quality candidate cat channels
+[1. CHANNEL SELETCTION] → Find high-quality candidate cat channels
     ↓
 [2. VIDEO FILTERING] → Keep only videos containing cat calls
     ↓
