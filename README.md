@@ -54,7 +54,7 @@ Life Stages:
 - **Senior (11 years - 14 years)**
 - **Geriatric (15 years or older)**
 
-We perform classification on the collected vocalization units, using the following categories:
+We classified individual cat vocalizations into 9 cat-call classes:
 - **Chatter/Chirp**
 - **Growl**
 - **Hiss/Spit**
