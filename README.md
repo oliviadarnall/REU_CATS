@@ -92,7 +92,7 @@ dcatvd/
 Our analysis pipeline follows these stages:
 
 ```
-[1. CHANNEL SELETCTION] → Find high-quality candidate cat channels
+[1. CHANNEL SELECTION] → Find high-quality candidate cat channels
     ↓
 [2. VIDEO FILTERING] → Keep only videos containing cat calls
     ↓
